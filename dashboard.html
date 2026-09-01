@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online MCQ Test - Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>Welcome!</h1>
+
+            <p id="studentName">
+                Loading student information...
+            </p>
+
+            <h2 style="text-align: center; margin-bottom: 20px;">
+                Select Your Subject
+            </h2>
+
+            <select id="subject" class="subject-select">
+
+                <option value="">-- Select Subject --</option>
+
+                <option value="PHP">PHP</option>
+
+                <option value="C#">C#</option>
+
+                <option value="Linux OS">
+                    Linux Operating System
+                </option>
+
+                <option value="Theory of Computer Science">
+                    Theory of Computer Science
+                </option>
+
+                <option value="Data Communication and Networking">
+                    Data Communication and Networking
+                </option>
+
+                <option value="Advanced Java">
+                    Advanced Java
+                </option>
+
+                <option value="Artificial Intelligence">
+                    Artificial Intelligence (AI)
+                </option>
+
+            </select>
+
+            <br><br>
+
+            <button id="continueBtn" class="btn">
+                Continue
+            </button>
+
+            <br><br>
+
+            <button id="logoutBtn" class="btn logout-btn">
+                Logout
+            </button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Online MCQ Test</p>
+        <p>
+            Developed by
+            <strong>Ganesh Bansode</strong> ❤️
+        </p>
+    </footer>
+
+    <script type="module" src="js/dashboard.js"></script>
+
+</body>
+</html>

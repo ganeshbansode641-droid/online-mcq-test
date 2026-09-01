@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online MCQ Test</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="test-card">
+
+            <!-- Test Header -->
+            <div class="test-header">
+
+                <div>
+                    <h2 id="subjectTitle">Online MCQ Test</h2>
+
+                    <p id="difficultyTitle"></p>
+                </div>
+
+                <div class="timer-box">
+                    ⏱️ <span id="timer">30</span>s
+                </div>
+
+            </div>
+
+
+            <!-- Question Progress -->
+            <div class="progress-info">
+                Question
+                <span id="currentQuestion">1</span>
+                of
+                <span id="totalQuestions">0</span>
+            </div>
+
+
+            <!-- Question -->
+            <h3 id="questionText">
+                Loading question...
+            </h3>
+
+
+            <!-- Options -->
+            <div id="optionsContainer">
+
+            </div>
+
+
+            <!-- Next Button -->
+            <button id="nextBtn" class="btn">
+                Next Question
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Online MCQ Test</p>
+        <p>Developed by <strong>Ganesh Bansode</strong> ❤️</p>
+    </footer>
+
+
+    <script type="module" src="js/test.js"></script>
+
+</body>
+</html>
